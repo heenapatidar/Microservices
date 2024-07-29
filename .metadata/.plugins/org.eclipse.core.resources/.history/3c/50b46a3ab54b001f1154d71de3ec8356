@@ -1,0 +1,6 @@
+package com.eazybytes.accounts.audit;
+
+public class AuditAwareImpl implements AuditorAware<String> 
+{
+	
+}

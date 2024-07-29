@@ -1,0 +1,18 @@
+package com.eazybytes.accounts.entity;
+
+import java.time.LocalDateTime;
+
+import jakarta.persistence.Column;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter @Setter @ToString
+public class BaseEntity 
+{
+	@Column(updatable = false)
+	private LocalDateTime createdAt;
+	private String createdBy;
+	private LocalDateTime updatedAt;
+	private String updatedBy;
+}

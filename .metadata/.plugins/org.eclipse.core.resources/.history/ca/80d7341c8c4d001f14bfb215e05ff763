@@ -1,0 +1,7 @@
+package com.eazybytes.cards.repository;
+
+public class CardsRepository
+{
+	Optional<Cards> findByMobileNumber(String mobileNumber);
+	
+}

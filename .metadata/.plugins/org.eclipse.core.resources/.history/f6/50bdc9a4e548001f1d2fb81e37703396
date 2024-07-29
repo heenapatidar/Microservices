@@ -1,0 +1,18 @@
+package com.eazybytes.accounts.entity;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class Accounts 
+{
+	@Column(name="customer_id")
+	private Long customerId;
+	
+	@Column(name="account_number")
+	@Id
+	private Long accountNumber;
+	private String accountType;
+	private String mobileNumber;
+}

@@ -1,0 +1,10 @@
+package com.eazybytes.cards.repository;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class CardsRepository
+{
+	Optional<Cards> findByMobileNumber(String mobileNumber);
+	Optional<Cards> findByCardNumber(String cardNumber);
+}

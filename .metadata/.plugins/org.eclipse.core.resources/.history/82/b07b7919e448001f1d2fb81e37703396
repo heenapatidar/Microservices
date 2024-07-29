@@ -1,0 +1,10 @@
+package com.eazybytes.accounts.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Customer 
+{
+	private Long customerId;
+	
+}

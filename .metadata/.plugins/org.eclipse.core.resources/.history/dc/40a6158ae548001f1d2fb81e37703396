@@ -1,0 +1,13 @@
+package com.eazybytes.accounts.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Accounts 
+{
+	private Long customerId;
+	
+	private Long accountNumber;
+	private String accountType;
+	private String mobileNumber;
+}

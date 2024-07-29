@@ -1,0 +1,15 @@
+package com.eazybytes.accounts.dto;
+
+import jakarta.persistence.Column;
+
+public class AccountsDto 
+{
+	private Long accountNumber;
+	
+	private String accountType;
+	
+	private String mobileNumber;
+	
+	private String branchAddress;
+
+}
